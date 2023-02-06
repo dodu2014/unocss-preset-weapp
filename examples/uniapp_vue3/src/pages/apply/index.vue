@@ -23,6 +23,6 @@
 
 .bg-to-r{
   /* --at-apply: center h-200 rounded-md bg-gradient-to-r from-#f39c12/60 via-#2ecc71:80 to-#9b59b6_70 mb-3; */
-  --at-apply: uno-center uno-h-200 uno-rounded-md uno-bg-gradient-to-r uno-from-#f39c12/60 uno-via-#2ecc71:80 uno-to-#9b59b6_70 uno-mb-3;
+  --at-apply: uno-center uno-h-200 uno-rounded-md uno-bg-gradient-to-r uno-from-#f39c12/60 uno-via-#2ecc71:80 uno-to-#9b59b6_70 uno-mb-3
 }
 </style>

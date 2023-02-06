@@ -7,6 +7,7 @@
 import { defineConfig, presetIcons } from 'unocss';
 import presetWeapp from 'unocss-preset-weapp';
 import { transformerAttributify, transformerClass } from 'unocss-preset-weapp/transformer';
+import { transformerDirectives } from 'unocss'
 
 const transformRules = {
   '.': '-d111-',
@@ -61,7 +62,7 @@ export default defineConfig({
   // 转换器
   transformers: [
     // https://github.com/unocss/unocss/tree/main/packages/transformer-directives
-    // transformerDirectives(),
+    transformerDirectives(),
 
     // https://github.com/MellowCo/unocss-preset-weapp/tree/main/src/transformer/transformerAttributify
     transformerAttributify({
