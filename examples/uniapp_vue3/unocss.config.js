@@ -68,7 +68,7 @@ export default defineConfig({
     transformerAttributify({
       classPrefix: prefix, // 为生成的class选择器添加前缀, ''
       transformRules, // 自定义转换规则
-      nonValuedAttribute: false, // 支持匹配非值属性, true
+      nonValuedAttribute: true, // 支持匹配非值属性, true
       // attributes: [], // 需要转换的属性列表, ['bg', 'flex', 'grid', 'border', 'text', 'font', 'class', 'className', 'p', 'm', 'animate']
       exclude, // 排除转换目标, [/[\\/]node_modules[\\/]/, /[\\/]\.git[\\/]/]
       prefix,
